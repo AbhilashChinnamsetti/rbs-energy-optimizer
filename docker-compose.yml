@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  trainer:
+    build: .
+    volumes:
+      - ./models:/app/models
+    command: ["--output", "models/model.joblib", "--samples", "2000"]
