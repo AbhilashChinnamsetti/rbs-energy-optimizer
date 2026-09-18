@@ -1,8 +1,10 @@
 # AI Energy Optimization for Radio Base Stations — Prototype
 
+Explainable energy-optimization prototype for Radio Base Stations (RBS).
+
 Overview
 
-This is a compact, runnable proof-of-concept that shows how lightweight AI models can be used to recommend energy-efficiency actions for Radio Base Stations (RBS) while keeping Quality of Service (QoS) in mind. The implementation uses synthetic data so you can demonstrate a full end-to-end workflow without operator telemetry.
+This is a compact, runnable proof-of-concept that demonstrates how lightweight, explainable AI models can recommend energy-efficiency actions for Radio Base Stations (RBS) without sacrificing basic Quality of Service (QoS). The implementation uses synthetic data so you can present a full end-to-end workflow (data → model → recommendations → demo) even without operator telemetry.
 
 Why this project
 
